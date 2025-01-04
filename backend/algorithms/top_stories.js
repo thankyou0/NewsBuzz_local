@@ -552,7 +552,7 @@ const Scrap = async (searchby) => {
 const ScrapTop_stories = async (req, res) => {
 
 
-	const FETCH_INTERVAL = 1000 * 20 * 60;  // 600000 seconds
+	const FETCH_INTERVAL = 1000 * 60 * 10;  // 10 min 
 
 	let lastFetchTime = null;
 	lastFetchTime = await top_stories_model.findOne({}, { createdAt: 1 });
