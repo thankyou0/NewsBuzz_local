@@ -3,4 +3,4 @@
 # # dependencies
 node_modules
 build
-config.js
+/src/config.js
