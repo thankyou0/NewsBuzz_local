@@ -1,0 +1,26 @@
+* {
+  font-family: "Quicksand", 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+input:-webkit-autofill {
+  box-shadow: 0 0 0 1000px transparent inset !important;
+  -webkit-text-fill-color: #000 !important;
+  /* Text remains visible */
+  border-radius: 25px;
+  /* Ensure consistency with your TextField styling */
+  transition: background-color 5000s ease-in-out 0s;
+  /* Prevent flicker */
+}
+
+body {
+  background-size: cover;
+  /* Ensures the image covers the whole page */
+  background-position: center;
+  /* Centers the background image */
+  background-repeat: no-repeat;
+  /* Prevents tiling of the background image */
+  min-height: 100vh;
+  /* Ensures it covers at least the viewport height */
+}
